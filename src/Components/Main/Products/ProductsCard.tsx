@@ -1,9 +1,11 @@
 'use client'
 
-import { Heart } from 'lucide-react'
-import { useState } from 'react'
-
 import Image from 'next/image'
+
+import { useEffect, useState } from 'react'
+import { Heart } from 'lucide-react'
+
+import { ProdutsItems } from '@/data/Products'
 
 interface ColorsProps {
   color: string
@@ -15,6 +17,7 @@ interface ProductsCardProps {
   imageDefault: string
   name: string
   price: string
+  favorites: boolean
   colors: Array<ColorsProps>
 }
 
@@ -24,6 +27,7 @@ export default function ProductsCard({
   price,
   colors,
   imageDefault,
+  favorites,
 }: ProductsCardProps) {
   const [colorImage, setColorImage] = useState('')
 
@@ -83,7 +87,8 @@ export default function ProductsCard({
               {colors.map((item, index) => (
                 <div
                   key={index}
-                  className={`w-[0.9rem] h-[0.9rem] rounded-[50%] border border-black bg-${item.color} cursor-pointer`}
+                  className={`w-[0.9rem] h-[0.9rem] rounded-[50%] border border-black cursor-pointer`}
+                  style={{ backgroundColor: `var(--${item.color})` }}
                   onClick={() => handleImageColor(item.image)}
                 ></div>
               ))}

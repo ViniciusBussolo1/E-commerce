@@ -2,4 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-
+:root {
+  --white: #FAECE3;
+  --skinColor: #F7AD86;
+  --orange: #FF9900;
+  --pink: #F2C6C8;
+  --red: #BB0300;
+  --grayCalcaMode: #B3A6AC;
+  --darkBrown: #5D483F;
+  --blue: #2D49AF;
+  --darkRed: #900606;
+  --lightGreen: #9DAD9B;
+  --darkGreen: #074006;
+  --darkPink: #D512AA;
+  --brown: #8D6D51;
+  --grayCollege: #867975;
+}

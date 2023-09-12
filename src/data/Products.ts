@@ -55,7 +55,7 @@ export const ProdutsItems = [
         image: 'SocialModeBlue.svg',
       },
       {
-        color: 'bldarkRed',
+        color: 'darkRed',
         image: 'SocialModeRed.svg',
       },
     ],
@@ -80,7 +80,7 @@ export const ProdutsItems = [
         image: 'SocialCampDarkGreen.svg',
       },
       {
-        color: 'blddarkPinkrkRed',
+        color: 'darkPink',
         image: 'SocialCampDarkPink.svg',
       },
     ],

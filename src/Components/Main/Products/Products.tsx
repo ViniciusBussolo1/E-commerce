@@ -17,6 +17,7 @@ export default function Products() {
             news={product.news}
             imageDefault={product.default}
             colors={product.colors}
+            favorites={product.favorites}
           />
         ))}
       </div>
