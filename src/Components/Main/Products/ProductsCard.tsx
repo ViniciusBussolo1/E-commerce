@@ -5,8 +5,6 @@ import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { Heart } from 'lucide-react'
 
-import { ProdutsItems } from '@/data/Products'
-
 interface ColorsProps {
   color: string
   image: string

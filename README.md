@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# E-commerce
 
-## Getting Started
+<p align="center">
+  <img src=".github/Preview.webp" width="100%" />
+</p>
 
-First, run the development server:
+## 💻 Projeto
+
+Projeto de front end para criar uma página de vendas para um e-commerce. Esse é o desafio do projeto criado pela <a href="https://www.draftcode.tech/">DraftCode</a>, cujo intuito é aprimorar suas skills front-end através de projetos práticos.
+
+## ✨ Tecnologias
+
+- [NextJS](https://nextjs.org/)
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/D2Lti0Nkxsl4PEzPvxTzt9/Untitled?type=design&node-id=0-1&mode=design&t=rDhhatzidrQ0eNP7-0). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
+
+## 🚀 Como executar
+
+Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+$ git clone https://github.com/ViniciusBussolo1/E-commerce.git
+$ cd E-commerce
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Para iniciá-lo, siga os passos abaixo:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Instalar as dependências
+$ npm install
+# Iniciar o projeto
+$ npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+O app estará disponível no seu browser pelo endereço  http://localhost:3000/.
